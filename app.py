@@ -28,7 +28,7 @@ while True:
     
     if escolha_usuario not in escolhas:
         print ('\n!!! Apenas "Pedra", "Papel" ou "Tesoura" !!!\n')
-        
+        continue
     
     escolhas_sorteadas = random.choice(escolhas)
     print(f"\n=> Máquina escolheu: {escolhas_sorteadas}")
